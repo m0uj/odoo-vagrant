@@ -50,4 +50,4 @@ You will see Odoo database manager, create your first database to get started.
 ## pgadmin user
 
 * user: admin
-* pass: admin
+* password: admin
