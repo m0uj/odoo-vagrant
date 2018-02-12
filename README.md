@@ -12,7 +12,7 @@ Odoo on Ubuntu 16.04 using Vagrant
 Clone this repository
 
 ```
-git clone https://github.com/m0uj/odoo-vagrant.git
+git clone --recursive https://github.com/m0uj/odoo-vagrant.git
 ```
 
 Enter the directory
