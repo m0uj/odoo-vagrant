@@ -40,7 +40,7 @@ cd /home/ubuntu/odoo
 python3 odoo-bin
 ```
 
-Odoo will run by default on 8069 port
+Odoo will run by default on port 8069
 
 ```
 http://localhost:8069
