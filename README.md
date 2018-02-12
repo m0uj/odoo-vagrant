@@ -36,7 +36,8 @@ vagrant ssh
 ## Run
 
 ```
-python3 ~/odoo-dev/odoo/odoo-bin
+cd /home/ubuntu/odoo
+python3 odoo-bin
 ```
 
 Odoo will run by default on 8069 port

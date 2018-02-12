@@ -25,15 +25,6 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node
 echo -e "\n---- Install less compiler ----"
 sudo npm install -g less less-plugin-clean-css
 
-echo -e "\n---- Create a directory to work in ----"
-sudo mkdir ~/odoo-dev 
-
-echo -e "\n---- Go into our work directory ----"
-cd ~/odoo-dev
-
-echo -e "\n---- Get Odoo source code ----"
-sudo git clone --depth=1 --branch=11.0 https://github.com/odoo/odoo.git
-
 echo -e "\n---- Install Odoo system dependencies ----"
 sudo pip3 install babel
 sudo pip3 install decorator
