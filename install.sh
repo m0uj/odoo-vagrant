@@ -7,7 +7,6 @@ sudo sh -c 'echo "LC_ALL=en_US.UTF-8" > /etc/environment'
 
 echo -e "\n---- Update Server ----"
 sudo apt-get update
-sudo apt-get upgrade -y
 
 echo -e "\n---- Install git and vim ----"
 sudo apt-get install git vim -y
@@ -15,7 +14,7 @@ sudo apt-get install git vim -y
 echo -e "\n---- Install Python3 and pip3 ----"
 sudo apt-get install python3 -y
 sudo apt-get install python3-pip -y
-pip3 install --upgrade pip
+sudo -H pip3 install --upgrade pip
 
 echo -e "\n---- Install NodeJs and its package manager ----"
 sudo apt-get install npm -y
@@ -27,44 +26,44 @@ echo -e "\n---- Install less compiler ----"
 sudo npm install -g less less-plugin-clean-css
 
 echo -e "\n---- Install Odoo system dependencies ----"
-pip3 install babel
-pip3 install decorator
-pip3 install docutils
-pip3 install ebaysdk
-pip3 install feedparser
-pip3 install gevent
-pip3 install greenlet
-pip3 install html2text
-pip3 install jinja2
-pip3 install lxml
-pip3 install Mako
-pip3 install MarkupSafe
-pip3 install mock
-pip3 install num2words
-pip3 install ofxparse
-pip3 install passlib
-pip3 install phonenumbers
-pip3 install Pillow
-pip3 install psutil
-pip3 install psycopg2
-pip3 install pydot
-pip3 install pyparsing
-pip3 install PyPDF2
-pip3 install pyserial
-pip3 install python-dateutil
-pip3 install pytz
-pip3 install pyusb
-pip3 install PyYAML
-pip3 install qrcode
-pip3 install reportlab
-pip3 install requests
-pip3 install suds-jurko
-pip3 install vatnumber
-pip3 install vobject
-pip3 install Werkzeug
-pip3 install XlsxWriter
-pip3 install xlwt
-pip3 install xlrd
+sudo -H pip3 install babel
+sudo -H pip3 install decorator
+sudo -H pip3 install docutils
+sudo -H pip3 install ebaysdk
+sudo -H pip3 install feedparser
+sudo -H pip3 install gevent
+sudo -H pip3 install greenlet
+sudo -H pip3 install html2text
+sudo -H pip3 install jinja2
+sudo -H pip3 install lxml
+sudo -H pip3 install Mako
+sudo -H pip3 install MarkupSafe
+sudo -H pip3 install mock
+sudo -H pip3 install num2words
+sudo -H pip3 install ofxparse
+sudo -H pip3 install passlib
+sudo -H pip3 install phonenumbers
+sudo -H pip3 install Pillow
+sudo -H pip3 install psutil
+sudo -H pip3 install psycopg2
+sudo -H pip3 install pydot
+sudo -H pip3 install pyparsing
+sudo -H pip3 install PyPDF2
+sudo -H pip3 install pyserial
+sudo -H pip3 install python-dateutil
+sudo -H pip3 install pytz
+sudo -H pip3 install pyusb
+sudo -H pip3 install PyYAML
+sudo -H pip3 install qrcode
+sudo -H pip3 install reportlab
+sudo -H pip3 install requests
+sudo -H pip3 install suds-jurko
+sudo -H pip3 install vatnumber
+sudo -H pip3 install vobject
+sudo -H pip3 install Werkzeug
+sudo -H pip3 install XlsxWriter
+sudo -H pip3 install xlwt
+sudo -H pip3 install xlrd
 
 echo -e "\n---- Install PostgreSQL & db superuser for unix user ----"
 sudo apt-get install -y postgresql
