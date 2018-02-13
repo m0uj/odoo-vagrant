@@ -15,6 +15,7 @@ sudo apt-get install git vim -y
 echo -e "\n---- Install Python3 and pip3 ----"
 sudo apt-get install python3 -y
 sudo apt-get install python3-pip -y
+sudo pip3 install --upgrade pip
 
 echo -e "\n---- Install NodeJs and its package manager ----"
 sudo apt-get install npm -y
@@ -42,6 +43,7 @@ sudo pip3 install mock
 sudo pip3 install num2words
 sudo pip3 install ofxparse
 sudo pip3 install passlib
+sudo pip3 install phonenumbers
 sudo pip3 install Pillow
 sudo pip3 install psutil
 sudo pip3 install psycopg2
